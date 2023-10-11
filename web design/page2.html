@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>personal info</title>
+        <style>
+            h1{
+                text-decoration: overline underline;
+                text-decoration-color:red ;
+                text-decoration-style:solid ;
+            }
+            h2{
+                text-decoration:underline;
+                text-decoration-color:black ;
+                text-decoration-style:wavy ;
+            
+            }
+            ul.top {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:black;
+            }
+
+            li.top {
+                float:left;
+            }
+            li.top a {
+                display: block;
+                color:red;
+                text-decoration-style: wavy;
+                text-decoration-color:white ;
+                text-align: center;
+                padding: 16px;
+
+            }
+            
+            li a:hover {
+                background-color: gray;
+            }
+            li a:active{
+                background-color: aqua;
+            }
+            p{
+                color: #548;
+            }
+
+            p.ex1 {display: none;}
+            p.ex2 {display: inline;}
+            /* Style the element with the id "myHeader" */
+            #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 40px;
+            text-align: center;
+            }
+
+            /* Style all elements with the class name "city" */
+            .city {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+            } 
+        </style>
+    </head>
+    <body>
+        <ul class="top" id="home">
+            <li class="top"><a href="#home" >Home</a></li>
+            <li class="top"><a href="#Intro" >Introduce</a></li>
+            <li class="top"><a href="#histor" >History</a></li>
+            <li class="top"><a href="#About">About</a></li>
+          </ul>
+        <ul style="list-style-type: square;">
+            <li>Sashimi</li>
+                    <ul style="list-style-type: none;">
+                        <li>slice fish</li>
+                    </ul>
+                    <li>Pastries</li>
+                    <ul>
+                        <li>Croissant</li>
+                        <li>Mille-feuille</li>
+                        <li>Palmier</li>
+                        <li>Profiterole</li>
+                    </ul>
+                    <li>Tarts</li>
+        </ul>
+        <h2>Difference Between Class and ID</h2>
+<p>A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:</p>
+
+<!-- An element with a unique id -->
+<h1 id="myHeader">My Cities</h1>
+
+<!-- Multiple elements with same class -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+        <a href= #123>123</a>
+        <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/7/7e/National_Taipei_University_of_Technology_seal.svg/1200px-National_Taipei_University_of_Technology_seal.svg.png" width="500" height="200" style="display: block;margin:auto;">
+        <div style="text-align: center;">
+            <h1 style="background-color: aquamarine; color: darkblue;" id="Intro">Introduction</h1>
+        </div>
+        <strong id="histor">國立臺北科技大學，<p class="ex2">wtf </p>簡稱臺北科大、北科大、北科，是一所位於臺北市大安區的國立研究型科技大學，前身為臺北工專，為昔日三大工專之一，同時是高等教育深耕計畫、發展典範科技大學計畫、臺北聯合大學系統以及中華民國科技部國際產學聯盟成員及國際商管學院促進協會認證會</strong>
+        <hr>
+        <a href="https://www.ntut.edu.tw/">
+            <dfn title="good school"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/NTUT_maingate_20170126.jpg/250px-NTUT_maingate_20170126.jpg" style="display: block;margin:auto;">  </dfn>  
+        </a>
+        <a href="https://www.google.com/"><img src="data:image/png;base64,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" alt="goole" width="200" height="200"></a>
+        <div style="text-align: center;">
+            <h2 style="background-color: blue; color: beige;">History</h1>
+        </div>
+        <p><abbr title="Professor">該校早可追逤自臺灣總督府於1912年7月5日創立的民政部學務部附屬工業講習所，隈本繁吉先生擔任首任所長，分設木工科、金工及電工兩科，是為臺灣工業教育之肇端，於日治時期幾經改制後成為「臺北州立臺北工業學校」。後於1948年8月經改制成為臺灣省立臺北工業專科學校（北工、北工專），為當時僅有的兩所專科（另一所為省立行政專校）。1997年8月1日，該校經教育部核准升格為國立臺北科技大學。北科大現在設有6個學院，下分32個學系，招收五專、大學部、碩士班、博士班，2018年開始主打就業導向的「新五專」，目前只有智慧自動化科有招生五專生。</abbr></p>
+        <div style="text-align: center;">
+            <h1 style="color: #e7e;">Self Introduction</h1>
+            <p><cite>I'm a NTUT student </cite><dfn> study </dfn>in <i> computer and information.</i></p>
+            <address>
+                <p>here is my address <a href="mailto:  ">t111590023@ntut.org.tw</a></p> <!--信箱address-->
+            </address>
+        </div>
+        <hr>
+        <p><ins>I like C++ and python</ins></p>
+        <u id="About">But Not the C</u>
+        <br>
+        
+        <h1 id="123">頁首</h1>
+    </body>
+
+</html>
